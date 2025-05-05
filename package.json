@@ -1,0 +1,36 @@
+{
+  "name": "ticketing-system-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for the MERN stack ticketing system",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build",
+    "start": "vite start",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "axios": "^1.2.3",
+    "formik": "^2.2.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.30.0",
+    "react-toastify": "^9.0.7",
+    "redux": "^4.2.1",
+    "redux-thunk": "^2.4.0",
+    "ticketing-system-frontend": "file:",
+    "vite": "^4.0.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.4.1",
+    "eslint": "^8.14.0",
+    "eslint-plugin-react": "^7.31.8",
+    "prettier": "^2.5.1",
+    "vite-plugin-svgr": "^3.0.0"
+  },
+  "browserslist": "> 0.2%, not dead, last 2 versions, Firefox ESR, not ie 11",
+  "author": "",
+  "license": "ISC"
+}

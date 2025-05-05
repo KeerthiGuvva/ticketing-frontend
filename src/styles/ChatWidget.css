@@ -1,0 +1,125 @@
+/* Basic Styles for the Widget */
+.widget {
+    position: fixed;
+    bottom: 20px; /* Default position - adjust as needed */
+    right: 20px; /* Default position - adjust as needed */
+    width: 300px; /* Widget width */
+    height: auto;
+    background-color: #ffffff; /* Default background color */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    z-index: 9999; /* Ensure it appears above other elements */
+    transition: all 0.3s ease;
+  }
+  
+  /* Widget header section */
+  .widget-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  /* The button to open the ticket form */
+  .widget-button {
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 16px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .widget-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Form Elements */
+  .widget-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .widget-form input,
+  .widget-form textarea {
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  .widget-form input:focus,
+  .widget-form textarea:focus {
+    border-color: #4CAF50; /* Focused state color */
+  }
+  
+  /* Widget Footer */
+  .widget-footer {
+    margin-top: 12px;
+    text-align: center;
+    font-size: 12px;
+    color: #777;
+  }
+  
+  /* Light Theme */
+  .widget.light-theme {
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .widget.light-theme .widget-button {
+    background-color: #2196F3; /* Blue button for light theme */
+  }
+  
+  .widget.light-theme .widget-button:hover {
+    background-color: #0b7dda;
+  }
+  
+  /* Dark Theme */
+  .widget.dark-theme {
+    background-color: #333;
+    color: #f9f9f9;
+  }
+  
+  .widget.dark-theme .widget-button {
+    background-color: #4CAF50; /* Green button for dark theme */
+  }
+  
+  .widget.dark-theme .widget-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Positioning for widget based on settings */
+  .widget.top-right {
+    top: 20px;
+    right: 20px;
+  }
+  
+  .widget.top-left {
+    top: 20px;
+    left: 20px;
+  }
+  
+  .widget.bottom-left {
+    bottom: 20px;
+    left: 20px;
+  }
+  
+  .widget.bottom-right {
+    bottom: 20px;
+    right: 20px;
+  }
+  
